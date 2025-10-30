@@ -1,0 +1,121 @@
+cooldown: 3600
+one_time: true
+auto_armor: false
+permission_required: false
+clear_inventory: false
+save_original_items: true
+allow_placeholders_on_original_items: false
+display:
+  default:
+    id: WOODEN_SWORD
+    name: '&f&lKit Usuario'
+    amount: 1
+    enchants:
+    - UNBREAKING;1
+  no_permission:
+    id: BARRIER
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou don''t have permissions to claim'
+    - '&cthis kit.'
+  cooldown:
+    id: STONE_SWORD
+    name: '&c&l%kit_name% &cKit'
+    amount: 1
+    lore:
+    - '&cYou need to wait &7%time%'
+    - '&cto claim this kit again.'
+    item_flags:
+    - HIDE_ATTRIBUTES
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:chainmail_helmet
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":1,"minecraft:unbreaking":1}'
+      schema_version: 1
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:chainmail_chestplate
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":1,"minecraft:unbreaking":1}'
+      schema_version: 1
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:chainmail_leggings
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":1,"minecraft:unbreaking":1}'
+      schema_version: 1
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:chainmail_boots
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:protection":1,"minecraft:unbreaking":1}'
+      schema_version: 1
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_sword
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:sharpness":1,"minecraft:unbreaking":1}'
+      schema_version: 1
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_pickaxe
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:efficiency":1,"minecraft:unbreaking":1}'
+      schema_version: 1
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_axe
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:efficiency":1,"minecraft:unbreaking":1}'
+      schema_version: 1
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:stone_shovel
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:efficiency":1,"minecraft:unbreaking":1}'
+      schema_version: 1
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:cooked_porkchop
+      count: 64
+      schema_version: 1
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

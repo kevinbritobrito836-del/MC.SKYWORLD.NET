@@ -1,0 +1,33 @@
+name: Mina User
+type: BLOCKS
+world: Survival
+icon: DIAMOND_ORE
+displayName: Mina User
+color: BLUE
+pos1: -166;66;23
+pos2: -171;63;18
+reset:
+  silent: false
+  commands: []
+  percentage:
+    active: false
+    value: 20
+  time:
+    active: true
+    value: 150
+settings:
+  break-permission: false
+  discard-break-action-messages: false
+  block-sets-mode: INCREMENTAL
+signs: []
+block-sets:
+  default:
+    description: 'Description for block set: default'
+    icon: CAULDRON
+    blocks:
+      LAPIS_BLOCK:
+        percentage: 0.1
+        disabled-vanilla-drop: false
+        disabled-block-mining: false
+teleport: -164;66;19;68.96512;31.052156
+faces: {}

@@ -1,0 +1,13 @@
+open_command: warps
+size: 53
+menu_title: '                &a&lWarps'
+items:
+   material: Sheststone':
+       data: 1
+        slot: 12
+        display_name: "  &aCajas"
+    lore:
+     - "&a&lAbre Tus Llaves Aqui "
+click_commands:
+  - '[player] warp cajas '
+sweet: true

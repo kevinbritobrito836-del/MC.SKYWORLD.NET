@@ -1,0 +1,45 @@
+# Plugin hecho por el servidor AventuraCraftLatin 
+# AvC
+# Visitanos: 198.50.170.190:25565 Version: 1.10
+Setspawn:
+  message1: '&aH&fas establecido un punto de &aSpawn'
+  message2: '&aB&fievenido al &aSpawn'
+Spawn:
+  x: 240
+  y: 63
+  z: -143
+  world: world
+Setspawn2:
+  message1: '&aH&fas establecido un segundo punto de &aSpawn'
+  message2: '&aB&fievenido al  2 &aSpawn'
+Spawn2:
+  x: 1
+  y: 70
+  z: 1
+  world: Survival
+Setspawn3:
+  message1: '&aH&fas establecido un tercer punto de &aSpawn'
+  message2: '&aB&fievenido al 3 &aSpawn'
+Spawn3:
+  x: 0
+  y: 0
+  z: 0
+  world: nulo
+Setsurvival:
+  message1: '&aH&fas establecido un punto de &aSpawn &fpara &6Survival'
+  message2: '&aB&fievenido al &aSpawn &fde &6Survival!'
+Survival:
+  x: 0
+  y: 0
+  z: 0
+  world: nulo
+Setfactions:
+  message1: '&aH&fas establecido un punto de &aSpawn &fpara &6Factions'
+  message2: '&aB&fievenido al &aSpawn &fde &6Factions!'
+Factions:
+  x: 0
+  y: 0
+  z: 0
+  world: nulo
+# ReloadConfig
+avcreload: '&aH&fas recargado la &6Config'

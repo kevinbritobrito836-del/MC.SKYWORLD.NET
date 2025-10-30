@@ -1,0 +1,42 @@
+# SETLOBBY v1.3
+
+# ------------------------------
+#            CONFIG
+# ------------------------------
+
+# Lobby data for Normal players.
+join-teleport: true
+lobby:
+  world: world
+  x: 240.50335304011438
+  y: 63.0
+  z: -143.34712875337453
+  yaw: -1.5667201280593872
+  pitch: -6.46272087097168
+
+# Lobby data for VIP players.
+join-teleport-vip: false
+lobby-vip: {}
+
+# Enable message on teleport normal player (spawn-msg)
+teleport-msg: true
+
+
+# ------------------------------
+#           MESSAGES
+# ------------------------------
+
+# Prefix
+prefix: '&a&lLOBBY &l&8➔ '
+# When player arrives to the spawn point when he use command.
+spawn-msg: '&aYou have arrived to the spawn point.'
+# Spawn point no set.
+spawn-not-set: '&cThe spawn point has not been set yet!'
+# Spawn point set.
+spawn-msg-set: '&aSpawn point established!'
+# VIP Spawn point set.
+spawn-vip-msg-set: '&aVIP Spawn point established!'
+# Unknown command.
+error-cmd: '&cUnknown command. Use: /setlobby vip'
+# No permission.
+no-perm: '&cYou don''t have permission.'

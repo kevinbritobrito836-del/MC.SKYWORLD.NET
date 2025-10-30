@@ -1,0 +1,40 @@
+# GUI Configuration
+gui:
+  title: "&bRTP Menu"  # Title of the GUI, supports color codes with &
+  size: 27  # Inventory size (must be multiple of 9, max 54)
+
+# Sound Configuration
+sound:
+  click: "ENTITY_EXPERIENCE_ORB_PICKUP"  # Sound played on item click
+  volume: 1.0  # Sound volume
+  pitch: 1.0   # Sound pitch
+
+# Item Configuration
+items:
+  overworld:
+    material: "GRASS_BLOCK"  # Material for overworld item
+    display-name: "&aOverworld RTP"  # Display name, supports color codes
+    slot: 11  # Inventory slot (0-26 for 27-size inventory)
+    lore:  # Item description
+      - "&fClick to RTP"
+      - "&fin the &aOverworld"
+  nether:
+    material: "NETHERRACK"
+    display-name: "&cNether RTP"
+    slot: 13
+    lore:
+      - "&fClick to RTP"
+      - "&fin the &cNether"
+  end:
+    material: "END_STONE"
+    display-name: "&eEnd RTP"
+    slot: 15
+    lore:
+      - "&fClick to RTP"
+      - "&fin the &eEnd"
+
+# Command Configuration
+commands:
+  overworld: "betterrtp player %player% world"
+  nether: "betterrtp player %player% world_nether"
+  end: "betterrtp player %player% world_the_end"

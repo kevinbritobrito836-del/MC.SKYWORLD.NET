@@ -1,0 +1,377 @@
+cooldown: 46000
+one_time: true
+auto_armor: false
+permission_required: true
+clear_inventory: false
+save_original_items: true
+allow_placeholders_on_original_items: false
+display:
+  default:
+    id: MACE
+    name: '&c&lKit Mazo'
+    amount: 1
+    enchants:
+    - UNBREAKING;1
+  no_permission:
+    id: MACE
+    name: '&c&lKit Mazo'
+    amount: 1
+    enchants:
+    - UNBREAKING;1
+  cooldown:
+    id: MACE
+    name: '&c&lKit Mazo'
+    amount: 1
+    enchants:
+    - UNBREAKING;1
+  one_time:
+    id: MACE
+    name: '&c&lKit Mazo'
+    amount: 1
+    enchants:
+    - UNBREAKING;1
+  one_time_requirements:
+    id: MACE
+    name: '&c&lKit Mazo'
+    amount: 1
+    enchants:
+    - UNBREAKING;1
+items:
+  '1':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_helmet
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":6,"minecraft:unbreaking":3}'
+      schema_version: 1
+    preview_slot: 0
+  '2':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_chestplate
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":6,"minecraft:unbreaking":3}'
+      schema_version: 1
+    preview_slot: 1
+  '3':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_leggings
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":6,"minecraft:unbreaking":3}'
+      schema_version: 1
+    preview_slot: 2
+  '4':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_boots
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:protection":6,"minecraft:unbreaking":3}'
+      schema_version: 1
+    preview_slot: 3
+  '5':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:netherite_sword
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:looting":3,"minecraft:mending":1,"minecraft:sharpness":6,"minecraft:unbreaking":3}'
+      schema_version: 1
+    preview_slot: 4
+  '6':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:mace
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:breach":3,"minecraft:density":3,"minecraft:mending":1,"minecraft:unbreaking":3,"minecraft:wind_burst":3}'
+        minecraft:custom_data: '{Enchantments:[{id:"mending",lvl:1s},{id:"unbreaking",lvl:3s}],"VV|custom_data":1b,display:{Lore:[''{"color":"gray","extra":["
+          ",{"translate":"enchantment.level.3"}],"text":"Wind Burst","italic":false}'',''{"color":"gray","extra":["
+          ",{"translate":"enchantment.level.3"}],"text":"Density","italic":false}'',''{"color":"gray","extra":["
+          ",{"translate":"enchantment.level.3"}],"text":"Breach","italic":false}''],Name:''{"color":"white","text":"1.21
+          Mace","italic":false}''}}'
+      schema_version: 1
+    preview_slot: 5
+  '7':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:golden_apple
+      count: 64
+      schema_version: 1
+    preview_slot: 6
+  '8':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:enchanted_golden_apple
+      count: 8
+      schema_version: 1
+    preview_slot: 7
+  '9':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:shield
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:unbreaking":4}'
+      schema_version: 1
+    preview_slot: 8
+  '10':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:experience_bottle
+      count: 64
+      schema_version: 1
+    preview_slot: 9
+  '11':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:experience_bottle
+      count: 64
+      schema_version: 1
+    preview_slot: 10
+  '12':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:firework_rocket
+      count: 64
+      schema_version: 1
+    preview_slot: 11
+  '13':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wind_charge
+      count: 64
+      components:
+        minecraft:custom_data: '{"VV|custom_data":1b,display:{Name:''{"color":"white","text":"1.21
+          Wind Charge","italic":false}''}}'
+      schema_version: 1
+    preview_slot: 12
+  '14':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:breeze_rod
+      count: 64
+      components:
+        minecraft:custom_data: '{"VV|custom_data":1b,display:{Name:''{"color":"white","text":"1.21
+          Breeze Rod","italic":false}''}}'
+      schema_version: 1
+    preview_slot: 13
+  '15':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 14
+  '16':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 15
+  '17':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 16
+  '18':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 17
+  '19':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:experience_bottle
+      count: 64
+      schema_version: 1
+    preview_slot: 18
+  '20':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:experience_bottle
+      count: 64
+      schema_version: 1
+    preview_slot: 19
+  '21':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:firework_rocket
+      count: 64
+      schema_version: 1
+    preview_slot: 20
+  '22':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wind_charge
+      count: 64
+      components:
+        minecraft:custom_data: '{"VV|custom_data":1b,display:{Name:''{"color":"white","text":"1.21
+          Wind Charge","italic":false}''}}'
+      schema_version: 1
+    preview_slot: 21
+  '23':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:breeze_rod
+      count: 64
+      components:
+        minecraft:custom_data: '{"VV|custom_data":1b,display:{Name:''{"color":"white","text":"1.21
+          Breeze Rod","italic":false}''}}'
+      schema_version: 1
+    preview_slot: 22
+  '24':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 23
+  '25':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 24
+  '26':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 25
+  '27':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 26
+  '28':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:experience_bottle
+      count: 64
+      schema_version: 1
+    preview_slot: 27
+  '29':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:elytra
+      count: 1
+      components:
+        minecraft:enchantments: '{"minecraft:mending":1,"minecraft:unbreaking":4}'
+      schema_version: 1
+    preview_slot: 28
+  '30':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:firework_rocket
+      count: 64
+      schema_version: 1
+    preview_slot: 29
+  '31':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:wind_charge
+      count: 64
+      components:
+        minecraft:custom_data: '{"VV|custom_data":1b,display:{Name:''{"color":"white","text":"1.21
+          Wind Charge","italic":false}''}}'
+      schema_version: 1
+    preview_slot: 30
+  '32':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:breeze_rod
+      count: 64
+      components:
+        minecraft:custom_data: '{"VV|custom_data":1b,display:{Name:''{"color":"white","text":"1.21
+          Breeze Rod","italic":false}''}}'
+      schema_version: 1
+    preview_slot: 31
+  '33':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 32
+  '34':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 33
+  '35':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 34
+  '36':
+    original:
+      ==: org.bukkit.inventory.ItemStack
+      DataVersion: 4440
+      id: minecraft:totem_of_undying
+      count: 1
+      schema_version: 1
+    preview_slot: 35
+actions:
+  claim:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;2'
+      execute_before_items: false
+      count_as_item: false
+  error:
+    '1':
+      action: 'playsound: BLOCK_NOTE_BLOCK_PLING;10;0.1'
+      execute_before_items: false
+      count_as_item: false

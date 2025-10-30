@@ -1,0 +1,1243 @@
+[22:01:10] [ServerMain/INFO]: [bootstrap] Running Java 21 (OpenJDK 64-Bit Server VM 21.0.8+9-Ubuntu-0ubuntu124.04.1; Ubuntu null) on Linux 6.8.0-1030-azure (amd64)
+[22:01:10] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) for Minecraft 1.21.8
+[22:01:11] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[22:01:18] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins/Oneblock-1.4.3b.jar'...
+[22:01:18] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins/VoidGen-2.3.3.jar'...
+[22:01:19] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins/Oneblock-1.4.3b.jar' in 1600ms.
+[22:01:19] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins/VoidGen-2.3.3.jar' in 1644ms.
+[22:01:23] [ServerMain/INFO]: [PluginInitializerManager] Initialized 42 plugins
+[22:01:23] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (3):
+ - AdvancedServerList (5.6.0), EconomyShopGUI (6.15.1), FancyNpcs (2.8.0.302)
+[22:01:23] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (39):
+ - AuraSkills (2.3.8), AvC (1.0), AxAFKZone (1.8.0), AxRewards (3.6.1), BetterRTP (3.6.13), ClearLag (3.2.2), CratesPlus (4.5.3), DecentHolograms (2.9.7), DeluxeMenus (1.14.1-Release), Essentials (2.21.2), EssentialsChat (2.21.1), Geyser-Spigot (2.8.4-SNAPSHOT), Graves (4.9.9), ItemEdit (3.7.0), ItemTag (3.7.1), LuckPerms (5.5.0), Multiverse-Core (5.3.0), Oneblock (1.4.3b), PlaceholderAPI (2.11.6), PlayerKits2 (1.19.1), ProtectionStones (2.10.5), RaLP (0.7), RealMines (1.8.7), RealScoreboard (1.5.6), Rtpgui (1.0), SetLobby (1.3), SetSpawn (5.5.1), Shopkeepers (2.23.10), SkinsRestorer (15.8.2), TAB (5.3.2), Themis (0.17.6), UberEnchant (8.12.0), Vault (1.7.3-b131), ViaBackwards (5.5.1), ViaVersion (5.5.1), VoidGen (2.3.3), WorldEdit (7.3.17-beta-01+5a4f79c), WorldGuard (7.0.14+2339-43997ec), XConomy (2.26.3)
+[22:01:28] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:01:31] [ServerMain/INFO]: Loaded 1407 recipes
+[22:01:31] [ServerMain/INFO]: Loaded 1520 advancements
+[22:01:31] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[22:01:32] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 1,151.5ms
+[22:01:32] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[22:01:32] [Server thread/INFO]: Loading properties
+[22:01:32] [Server thread/INFO]: This server is running Paper version 1.21.8-6-main@782ce95 (2025-07-18T20:26:58Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[22:01:32] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[22:01:32] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:01:32] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:01:33] [Server thread/INFO]: [MoonriseCommon] Paper is using 1 worker threads, 1 I/O threads
+[22:01:33] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[22:01:33] [Server thread/INFO]: Default game type: SURVIVAL
+[22:01:33] [Server thread/INFO]: Generating keypair
+[22:01:33] [Server thread/INFO]: Starting Minecraft server on *:25565
+[22:01:33] [Server thread/INFO]: Using epoll channel type
+[22:01:33] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:01:33] [Server thread/INFO]: Paper: Using OpenSSL 3.x.x (Linux x86_64) cipher from Velocity.
+[22:01:34] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loading 5 libraries... please wait
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-api/4.16.0/adventure-api-4.16.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-key/4.16.0/adventure-key-4.16.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/examination-api/1.3.0/examination-api-1.3.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/examination-string/1.3.0/examination-string-1.3.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/org/jetbrains/annotations/24.1.0/annotations-24.1.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-platform-bukkit/4.3.2/adventure-platform-bukkit-4.3.2.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-platform-api/4.3.2/adventure-platform-api-4.3.2.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-bungeecord/4.3.2/adventure-text-serializer-bungeecord-4.3.2.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-nbt/4.13.1/adventure-nbt-4.13.1.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson-legacy-impl/4.13.1/adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-platform-facet/4.3.2/adventure-platform-facet-4.3.2.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-platform-viaversion/4.3.2/adventure-platform-viaversion-4.3.2.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-text-minimessage/4.16.0/adventure-text-minimessage-4.16.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-gson/4.16.0/adventure-text-serializer-gson-4.16.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-json/4.16.0/adventure-text-serializer-json-4.16.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/option/1.0.0/option-1.0.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.0/gson-2.8.0.jar
+[22:01:35] [Server thread/INFO]: [SpigotLibraryLoader] [ItemEdit] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/net/kyori/adventure-text-serializer-legacy/4.16.0/adventure-text-serializer-legacy-4.16.0.jar
+[22:01:36] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[22:01:46] [Server thread/WARN]: Legacy plugin SetLobby v1.3 does not specify an api-version.
+[22:01:46] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loading 1 libraries... please wait
+[22:01:46] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/redis/clients/jedis/4.3.1/jedis-4.3.1.jar
+[22:01:46] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/org/slf4j/slf4j-api/1.7.36/slf4j-api-1.7.36.jar
+[22:01:46] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/org/apache/commons/commons-pool2/2.11.1/commons-pool2-2.11.1.jar
+[22:01:46] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/org/json/json/20220320/json-20220320.jar
+[22:01:46] [Server thread/INFO]: [SpigotLibraryLoader] [XConomy] Loaded library /workspaces/MC.SKYWORLD.NET/servidor_minecraft/libraries/com/google/code/gson/gson/2.8.9/gson-2.8.9.jar
+[22:01:48] [Server thread/WARN]: Legacy plugin AvC v1.0 does not specify an api-version.
+[22:01:48] [Server thread/INFO]: [ViaVersion] Loading server plugin ViaVersion v5.5.1
+[22:01:48] [Server thread/INFO]: [ViaVersion] ViaVersion 5.5.1 is now loaded. Registering protocol transformers and injecting...
+[22:01:48] [Via-Mappingloader-0/INFO]: [ViaVersion] Loading block connection mappings ...
+[22:01:49] [Via-Mappingloader-0/INFO]: [ViaVersion] Using FastUtil Long2ObjectOpenHashMap for block connections
+[22:01:49] [Server thread/INFO]: [ViaBackwards] Loading translations...
+[22:01:49] [Server thread/INFO]: [ViaBackwards] Registering protocols...
+[22:01:50] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.0
+[22:01:52] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[22:01:52] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.17-beta-01+5a4f79c
+[22:01:53] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3e756e3a]
+[22:01:53] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
+[22:01:53] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[22:01:53] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.21.2
+[22:01:53] [Server thread/INFO]: [VoidGen] Loading server plugin VoidGen v2.3.3
+[22:01:53] [Server thread/INFO]: [Oneblock] Loading server plugin Oneblock v1.4.3b
+[22:01:53] [Server thread/INFO]: [DecentHolograms] Loading server plugin DecentHolograms v2.9.7
+[22:01:53] [Server thread/INFO]: [Geyser-Spigot] Loading server plugin Geyser-Spigot v2.8.4-SNAPSHOT
+[22:01:53] [Server thread/INFO]: [Geyser-Spigot] Loading extensions...
+[22:01:53] [Server thread/INFO]: [Geyser-Spigot] Loaded 0 extension(s)
+[22:01:53] [Server thread/INFO]: [EssentialsChat] Loading server plugin EssentialsChat v2.21.1
+[22:01:53] [Server thread/INFO]: [ItemEdit] Loading server plugin ItemEdit v3.7.0
+[22:01:53] [Server thread/INFO]: [CoreLogging] Loading server plugin Multiverse-Core v5.3.0
+[22:01:53] [Server thread/INFO]: [ViaBackwards] Loading server plugin ViaBackwards v5.5.1
+[22:01:53] [Server thread/INFO]: [AxAFKZone] Loading server plugin AxAFKZone v1.8.0
+[22:01:53] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[22:01:53] [Server thread/INFO]: [DeluxeMenus] Loading server plugin DeluxeMenus v1.14.1-Release
+[22:01:53] [Server thread/WARN]: [DeluxeMenus] Could not setup a NMS hook for your server version! The following Item options will not work: nbt_int, nbt_ints, nbt_string and nbt_strings.
+[22:01:53] [Server thread/INFO]: [AuraSkills] Loading server plugin AuraSkills v2.3.8
+[22:01:53] [Server thread/INFO]: [CratesPlus] Loading server plugin CratesPlus v4.5.3
+[22:01:53] [Server thread/INFO]: [SetLobby] Loading server plugin SetLobby v1.3
+[22:01:53] [Server thread/INFO]: [EconomyShopGUI] Loading server plugin EconomyShopGUI v6.15.1
+[22:01:53] [Server thread/INFO]: [AdvancedServerList] Loading server plugin AdvancedServerList v5.6.0
+[22:01:53] [Server thread/INFO]: [RealScoreboard] Loading server plugin RealScoreboard v1.5.6
+[22:01:53] [Server thread/INFO]: [XConomy] Loading server plugin XConomy v2.26.3
+[22:01:53] [Server thread/INFO]: [RaLP] Loading server plugin RaLP v0.7
+[22:01:53] [Server thread/INFO]: [ItemTag] Loading server plugin ItemTag v3.7.1
+[22:01:53] [Server thread/INFO]: [AxRewards] Loading server plugin AxRewards v3.6.1
+[22:01:53] [Server thread/INFO]: [PlayerKits2] Loading server plugin PlayerKits2 v1.19.1
+[22:01:53] [Server thread/INFO]: [RealMines] Loading server plugin RealMines v1.8.7
+[22:01:53] [Server thread/INFO]: [BetterRTP] Loading server plugin BetterRTP v3.6.13
+[22:01:53] [Server thread/INFO]: [FancyNpcs] Loading server plugin FancyNpcs v2.8.0.302
+[22:01:53] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.23.10
+[22:01:54] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (422 ms).
+[22:01:54] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R7_paper
+[22:01:54] [Server thread/INFO]: [Shopkeepers] Loading config.
+[22:01:54] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[22:01:54] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[22:01:54] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[22:01:54] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.3.2
+[22:01:54] [Server thread/INFO]: [AvC] Loading server plugin AvC v1.0
+[22:01:54] [Server thread/INFO]: [Themis] Loading server plugin Themis v0.17.6
+[22:01:54] [Server thread/INFO]: [Rtpgui] Loading server plugin Rtpgui v1.0
+[22:01:54] [Server thread/INFO]: [Graves] Loading server plugin Graves v4.9.9
+[22:01:55] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.14+2339-43997ec.
+[22:01:55] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.5
+[22:01:55] [Server thread/INFO]: [SkinsRestorer] Loading server plugin SkinsRestorer v15.8.2
+[22:01:55] [Server thread/INFO]: [UberEnchant] Loading server plugin UberEnchant v8.12.0
+[22:01:55] [Server thread/INFO]: [SetSpawn] Loading server plugin SetSpawn v5.5.1
+[22:01:55] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:01:55] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.0
+[22:01:55] [Server thread/INFO]:         __    
+[22:01:55] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.0
+[22:01:55] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[22:01:55] [Server thread/INFO]: 
+[22:01:55] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:01:56] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:01:57] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:01:57] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:01:57] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2802ms)
+[22:01:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[22:01:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:01:58] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:01:58] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[22:01:58] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[22:01:58] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.17-beta-01+5a4f79c
+[22:01:58] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:01:58] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[22:01:58] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[22:01:59] [Server thread/INFO]: [VoidGen] Enabling VoidGen v2.3.3
+[22:01:59] [Server thread/INFO]: [VoidGen] Using VoidChunkGen: VERSION_1_21_3
+[22:01:59] [Server thread/INFO]: [VoidGen] Creating settings.yml...
+[22:01:59] [Server thread/INFO]: [VoidGen] Successfully created settings.yml!
+[22:01:59] [Server thread/INFO]: [XConomy] Enabling XConomy v2.26.3
+[22:02:00] [Server thread/INFO]: [XConomy] UUID-Mode: Default
+[22:02:00] [Server thread/INFO]: [XConomy] Language: ENGLISH
+[22:02:00] [Server thread/INFO]: [XConomy] Saving method - SQLite
+[22:02:00] [Server thread/INFO]: [XConomy] SQLite successfully connected
+[22:02:00] [Server thread/INFO]: [XConomy] XConomy successfully enabled
+[22:02:00] [Server thread/INFO]: [XConomy] Found PlaceholderAPI
+[22:02:00] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: xconomy [2.26.3]
+[22:02:00] [Server thread/INFO]: [XConomy] PlaceholderAPI successfully hooked
+[22:02:00] [Server thread/INFO]: [XConomy] ===== YiC =====
+[22:02:00] [Server thread/INFO]: [SkinsRestorer] Enabling SkinsRestorer v15.8.2
+[22:02:00] [Folia Async Scheduler Thread #0/INFO]: [XConomy] Is the latest version
+[22:02:01] [Server thread/INFO]: [SkinsRestorer] Running on Minecraft 1.21.8.
+[22:02:01] [Server thread/INFO]: [SkinsRestorer] Using paper join listener!
+[22:02:01] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: skinsrestorer [15.8.2]
+[22:02:01] [Server thread/INFO]: [SkinsRestorer] PlaceholderAPI expansion registered!
+[22:02:01] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:02:01] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[22:02:01] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:02:01] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:02:01] [Server thread/INFO]: Preparing level "world"
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |   SkinsRestorer  |
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |------------------|
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     |  Standalone Mode |
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     +==================+
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Version: 15.8.2
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     Commit: cf773a3
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer]     This is the latest version!
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] ----------------------------------------------
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Do you have issues? Read our troubleshooting guide: https://skinsrestorer.net/docs/troubleshooting
+[22:02:02] [Folia Async Scheduler Thread #2/INFO]: [SkinsRestorer] Want to support SkinsRestorer? Consider donating: https://skinsrestorer.net/donate
+[22:02:02] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:02:03] [Server thread/INFO]: Preparing spawn area: 0%
+[22:02:03] [Server thread/INFO]: Preparing spawn area: 0%
+[22:02:03] [Server thread/INFO]: Preparing spawn area: 2%
+[22:02:04] [Server thread/INFO]: Time elapsed: 1371 ms
+[22:02:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:02:04] [Server thread/INFO]: Preparing spawn area: 0%
+[22:02:04] [Server thread/INFO]: Preparing spawn area: 0%
+[22:02:04] [Server thread/INFO]: Time elapsed: 609 ms
+[22:02:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:02:04] [Server thread/INFO]: Preparing spawn area: 0%
+[22:02:04] [Server thread/INFO]: Time elapsed: 127 ms
+[22:02:04] [Server thread/INFO]: [ViaVersion] Enabling ViaVersion v5.5.1
+[22:02:04] [Server thread/INFO]: [ViaVersion] ViaVersion detected server version: 1.21.7-1.21.8 (772)
+[22:02:05] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[22:02:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[22:02:05] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:02:05] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[22:02:05] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[22:02:05] [Server thread/INFO]: [Essentials] Enabling Essentials v2.21.2
+[22:02:05] [Server thread/WARN]: [Essentials] Version mismatch! Please update EssentialsChat to the same version.
+[22:02:05] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:02:05] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Paper Tick Count Provider as the provider for TickCountProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.20.4+ Damage Event Provider as the provider for DamageEventProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.12+ Spawner Block Provider as the provider for SpawnerBlockProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.8.3+ Spawner Item Provider as the provider for SpawnerItemProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.20.6+ Potion Meta Provider as the provider for PotionMetaProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Paper Biome Key Provider as the provider for BiomeKeyProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.14+ Sign Data Provider as the provider for SignDataProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.13+ Spawn Egg Provider as the provider for SpawnEggProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Paper Material Tag Provider as the provider for MaterialTagProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Paper Known Commands Provider as the provider for KnownCommandsProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.11+ Item Unbreakable Provider as the provider for ItemUnbreakableProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Paper Container Provider as the provider for ContainerProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.21.4+ Sync Commands Provider as the provider for SyncCommandsProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.17.1+ World Info Provider as the provider for WorldInfoProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.20.5+ Banner Data Provider as the provider for BannerDataProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.12.2+ Player Locale Provider as the provider for PlayerLocaleProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Paper Serialization Provider as the provider for SerializationProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Paper Server State Provider as the provider for ServerStateProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.14.4+ Persistent Data Container Provider as the provider for PersistentDataProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Reflection Formatted Command Alias Provider as the provider for FormattedCommandAliasProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Legacy Biome Name Provider as the provider for BiomeNameProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected 1.21+ InventoryView Interface ABI Provider as the provider for InventoryViewProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Selected Reflection Online Mode Provider as the provider for OnlineModeProvider
+[22:02:06] [Server thread/INFO]: [Essentials] Loaded 43880 items from items.json.
+[22:02:06] [Server thread/INFO]: [Essentials] Using locale en
+[22:02:06] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:02:07] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:02:07] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[22:02:07] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[22:02:07] [Server thread/INFO]: [Oneblock] Enabling Oneblock v1.4.3b
+[22:02:07] [Server thread/INFO]: [Oneblock] 
+█▀█ ░░░░ ░░░ █▀▄ ░░░ ░░░ ░░░ ░░░
+█░█ █▄░█ █▀▀ █▄▀ █░░ █▀█ █▀▀ █▄▀
+█▄█ █░▀█ ██▄ █▄▀ █▄▄ █▄█ █▄▄ █░█
+
+by MrMarL
+[22:02:07] [Server thread/INFO]: [Oneblock] PlaceholderAPI has been found!
+[22:02:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: OB [1.4.3b]
+[22:02:07] [Server thread/INFO]: [Oneblock] basic
+[22:02:07] [Server thread/INFO]: [Oneblock] Loaded 2 general rewards and 0 level-specific reward sets
+[22:02:07] [Server thread/INFO]: [DecentHolograms] Enabling DecentHolograms v2.9.7
+[22:02:07] [Server thread/INFO]: [DecentHolograms] Initialized NMS adapter for v1_21_R5 (1.21.8).
+[22:02:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
+[22:02:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R5' loaded!
+[22:02:07] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'DecentHolograms' to create a bStats instance!
+[22:02:07] [Server thread/INFO]: [DecentHolograms] NBT-API loaded successfully.
+[22:02:07] [Server thread/INFO]: [Geyser-Spigot] Enabling Geyser-Spigot v2.8.4-SNAPSHOT
+[22:02:08] [Server thread/INFO]: [EssentialsChat] Enabling EssentialsChat v2.21.1
+[22:02:08] [Server thread/WARN]: [EssentialsChat] Version mismatch! Please update all Essentials jars to the same version.
+[22:02:08] [Server thread/INFO]: [EssentialsChat] Starting Metrics. Opt-out using the global bStats config.
+[22:02:08] [Server thread/INFO]: [ItemEdit] Enabling ItemEdit v3.7.0
+[22:02:08] [Server thread/INFO]: [ItemEdit] Hooking into MiniMessageAPI see https://webui.advntr.dev/
+[22:02:08] [Server thread/INFO]: [ItemEdit] Selected Storage Type: YAML
+[22:02:08] [Server thread/INFO]: [ItemEdit] Hooking into Vault
+[22:02:08] [Server thread/INFO]: [ItemEdit] Hooking into PlaceHolderAPI
+[22:02:08] [Server thread/INFO]: [ItemEdit] placeholders:
+[22:02:08] [Server thread/INFO]: [ItemEdit]   %itemedit_amount_<{itemid}>_[{slot}]_[{player}]%
+[22:02:08] [Server thread/INFO]: [ItemEdit]     shows how many itemid player has on slot
+[22:02:08] [Server thread/INFO]: [ItemEdit]     <{itemid}> for item id on serveritem
+[22:02:08] [Server thread/INFO]: [ItemEdit]     [{slot}] for the slot where the item should be counted, by default inventory
+[22:02:08] [Server thread/INFO]: [ItemEdit]       Values: inventory (include offhand), equip (include offhand), inventoryandequip (include offhand), hand, offhand, head, chest, legs, feet
+[22:02:08] [Server thread/INFO]: [ItemEdit]     [{player}] for the player, by default self
+[22:02:08] [Server thread/INFO]: [ItemEdit]     example: %itemedit_amount_{my_item_id}_{hand}%
+[22:02:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemedit [1.0]
+[22:02:08] [Server thread/INFO]: [ItemEdit] # Enabled (took 259 ms)
+[22:02:08] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v5.3.0
+[22:02:09] [Server thread/INFO]: [VoidGen] 
+[22:02:09] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[22:02:09] [Server thread/INFO]: [VoidGen] > 
+[22:02:09] [Server thread/INFO]: [VoidGen] > Generator settings have not been set, we will use the default settings:
+[22:02:09] [Server thread/INFO]: [VoidGen] > {"biome":"the_void"}
+[22:02:09] [Server thread/INFO]: [VoidGen] > 
+[22:02:09] [Server thread/INFO]: [VoidGen] > ——————————————————————[ world ]——————————————————————
+[22:02:09] [Server thread/INFO]: [VoidGen] 
+[22:02:09] [Server thread/INFO]: Preparing start region for dimension minecraft:mundo
+[22:02:09] [Server thread/INFO]: Preparing spawn area: 0%
+[22:02:09] [Server thread/INFO]: Time elapsed: 223 ms
+[22:02:09] [Server thread/INFO]: [WorldGuard] (Mundo) TNT ignition is PERMITTED.
+[22:02:09] [Server thread/INFO]: [WorldGuard] (Mundo) Lighters are PERMITTED.
+[22:02:09] [Server thread/INFO]: [WorldGuard] (Mundo) Lava fire is PERMITTED.
+[22:02:09] [Server thread/INFO]: [WorldGuard] (Mundo) Fire spread is UNRESTRICTED.
+[22:02:09] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Mundo'
+[22:02:09] [Server thread/INFO]: Preparing start region for dimension minecraft:survival
+[22:02:09] [Server thread/INFO]: Preparing spawn area: 0%
+[22:02:10] [Server thread/INFO]: Preparing spawn area: 89%
+[22:02:10] [Server thread/INFO]: Time elapsed: 519 ms
+[22:02:10] [Server thread/INFO]: [WorldGuard] (Survival) TNT ignition is PERMITTED.
+[22:02:10] [Server thread/INFO]: [WorldGuard] (Survival) Lighters are PERMITTED.
+[22:02:10] [Server thread/INFO]: [WorldGuard] (Survival) Lava fire is PERMITTED.
+[22:02:10] [Server thread/INFO]: [WorldGuard] (Survival) Fire spread is UNRESTRICTED.
+[22:02:10] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'Survival'
+[22:02:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: multiverse-core [5.3.0]
+[22:02:10] [Server thread/INFO]: [Multiverse-Core] API service loaded!
+[22:02:10] [Server thread/INFO]: [Multiverse-Core] Version 5.3.0 (API v5.3) Enabled - By dumptruckman, Rigby, fernferret, lithium3141, main--, benwoo1110 and Zax71
+[22:02:10] [Server thread/INFO]: [Multiverse-Core] Loving Multiverse-Core? Please consider supporting the project with a small donation: https://github.com/sponsors/Multiverse
+[22:02:10] [Server thread/INFO]: [VoidGen] VoidGen hooked into Multiverse!
+[22:02:10] [Server thread/INFO]: [ViaBackwards] Enabling ViaBackwards v5.5.1
+[22:02:10] [Server thread/INFO]: [AxAFKZone] Enabling AxAFKZone v1.8.0
+[22:02:11] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[22:02:11] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[22:02:11] [Server thread/INFO]: [ClearLag] Loading modules...
+[22:02:11] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[22:02:11] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[22:02:11] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[22:02:11] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[22:02:11] [Thread-16/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[22:02:11] [Thread-16/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[22:02:11] [Thread-16/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[22:02:11] [Thread-16/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[22:02:11] [Thread-16/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[22:02:11] [Thread-16/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[22:02:11] [Server thread/INFO]: [DeluxeMenus] Enabling DeluxeMenus v1.14.1-Release
+[22:02:11] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into PlaceholderAPI!
+[22:02:11] [Server thread/INFO]: [DeluxeMenus] Successfully hooked into Vault!
+[22:02:11] [Server thread/ERROR]: [DeluxeMenus] Detected invalid configuration in file: warps.yml
+[22:02:11] [Server thread/ERROR]: [DeluxeMenus] Detected invalid configuration in file: warps.yml
+org.bukkit.configuration.InvalidConfigurationException: mapping values are not allowed here
+ in 'reader', line 5, column 25:
+       material: Sheststone':
+                            ^
+
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:112) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:160) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.configuration.file.FileConfiguration.load(FileConfiguration.java:128) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at DeluxeMenus-1.14.1-Release.jar/com.extendedclip.deluxemenus.config.DeluxeMenusConfig.checkConfig(DeluxeMenusConfig.java:251) ~[DeluxeMenus-1.14.1-Release.jar:?]
+	at DeluxeMenus-1.14.1-Release.jar/com.extendedclip.deluxemenus.config.DeluxeMenusConfig.loadMenuFromFile(DeluxeMenusConfig.java:365) ~[DeluxeMenus-1.14.1-Release.jar:?]
+	at DeluxeMenus-1.14.1-Release.jar/com.extendedclip.deluxemenus.config.DeluxeMenusConfig.loadGUIMenus(DeluxeMenusConfig.java:326) ~[DeluxeMenus-1.14.1-Release.jar:?]
+	at DeluxeMenus-1.14.1-Release.jar/com.extendedclip.deluxemenus.DeluxeMenus.onEnable(DeluxeMenus.java:96) ~[DeluxeMenus-1.14.1-Release.jar:?]
+	at org.bukkit.plugin.java.JavaPlugin.setEnabled(JavaPlugin.java:280) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at io.papermc.paper.plugin.manager.PaperPluginInstanceManager.enablePlugin(PaperPluginInstanceManager.java:202) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at io.papermc.paper.plugin.manager.PaperPluginManagerImpl.enablePlugin(PaperPluginManagerImpl.java:109) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.plugin.SimplePluginManager.enablePlugin(SimplePluginManager.java:520) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugin(CraftServer.java:651) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.CraftServer.enablePlugins(CraftServer.java:607) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.loadWorld0(MinecraftServer.java:743) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.loadLevel(MinecraftServer.java:488) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.dedicated.DedicatedServer.initServer(DedicatedServer.java:280) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1164) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: org.yaml.snakeyaml.scanner.ScannerException: mapping values are not allowed here
+ in 'reader', line 5, column 25:
+       material: Sheststone':
+                            ^
+
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchValue(ScannerImpl.java:902) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.fetchMoreTokens(ScannerImpl.java:391) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.scanner.ScannerImpl.checkToken(ScannerImpl.java:238) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:637) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.parser.ParserImpl.peekEvent(ParserImpl.java:161) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:57) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:43) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:136) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:116) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeScalarNode(Composer.java:241) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:205) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeValueNode(Composer.java:369) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingChildren(Composer.java:348) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeMappingNode(Composer.java:323) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.composeNode(Composer.java:209) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getNode(Composer.java:131) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.composer.Composer.getSingleNode(Composer.java:157) ~[snakeyaml-2.2.jar:?]
+	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:575) ~[snakeyaml-2.2.jar:?]
+	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:105) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	... 18 more
+[22:02:11] [Server thread/WARN]: [DeluxeMenus] Menu: warps in file: warps.yml not loaded.
+[22:02:11] [Server thread/INFO]: [DeluxeMenus] 0 GUI menus loaded!
+[22:02:11] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: deluxemenus [1.14.1-Release]
+[22:02:11] [Server thread/INFO]: [DeluxeMenus] You are running the latest version of DeluxeMenus!
+[22:02:11] [Server thread/INFO]: [AuraSkills] Enabling AuraSkills v2.3.8
+[22:02:13] [Server thread/INFO]: [AuraSkills] Loaded 21 message files
+[22:02:13] [Server thread/INFO]: [AuraSkills] Successfully registered hook DecentHolograms
+[22:02:13] [Server thread/INFO]: [AuraSkills] Successfully registered hook LuckPerms
+[22:02:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: auraskills [2.3.8]
+[22:02:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: aureliumskills [2.3.8]
+[22:02:13] [Server thread/INFO]: [AuraSkills] Successfully registered hook PlaceholderAPI
+[22:02:13] [Server thread/INFO]: [AuraSkills] Successfully registered hook Vault
+[22:02:13] [Server thread/INFO]: [AuraSkills] Successfully registered hook WorldGuard
+[22:02:14] [Server thread/INFO]: [AuraSkills] Loaded 160 config options in 38 ms
+[22:02:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
+[22:02:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_21_R5' loaded!
+[22:02:14] [Server thread/INFO]: [NBTAPI] [NBTAPI] Using the plugin 'AuraSkills' to create a bStats instance!
+[22:02:14] [Server thread/INFO]: [AuraSkills] Loaded 3 blocked/disabled worlds
+[22:02:14] [Server thread/INFO]: [AuraSkills] [ACF] Enabled Asynchronous Tab Completion Support!
+[22:02:14] [Server thread/INFO]: [CratesPlus] Enabling CratesPlus v4.5.3
+[22:02:14] [Server thread/WARN]: [CratesPlus] CratesPlus has not yet been officially tested with Bukkit 1.21.8 but should still work
+[22:02:14] [Server thread/WARN]: [CratesPlus] Please let me know if there are any errors or issues
+[22:02:15] [Server thread/WARN]: [CratesPlus] Only 1.8 - 1.9 supports the built in holograms, please use HolographicDisplays or Individual Holograms for holograms to work
+[22:02:15] [Server thread/INFO]: CratesPlus Version 4.5.3
+[22:02:15] [Server thread/INFO]: You are using the built in handler for holograms. This will be removed in a future update! It is recommended to install Individual Holograms or HolographicDisplays which CratesPlus will then use to handle holograms.
+[22:02:15] [Server thread/INFO]: [SetLobby] Enabling SetLobby v1.3*
+[22:02:15] [Server thread/INFO]: [SetLobby] Config.yml found, loading!
+[22:02:15] [Server thread/INFO]: SetLobby v1.3 has been enabled!
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] Enabling EconomyShopGUI v6.15.1
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using lang-en.yml as language file
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 section configs from /sections/
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 16 shop configs from /shops/
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Updating Shop settings...
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Successfully hooked into Vault and using XConomy as economy provider
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Completed loading 1 economy provider(s) for all 14 shop sections.
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Using minecraft version 1.21.8...
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Spawner provider set to AUTO in config
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Automatically searching for compatible spawner provider....
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Failed to automatically find compatible spawner provider, using default...
+[22:02:15] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: esgui [1.1.0]
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Debug mode is enabled.
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Loading all items...
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load banned gamemode like 'Survival'
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [WARN]: Failed to load banned gamemode like 'Creative'
+[22:02:15] [Server thread/INFO]: [EconomyShopGUI] [INFO]: Initialized - Took 818ms to complete
+[22:02:15] [Server thread/INFO]: [AdvancedServerList] Enabling AdvancedServerList v5.6.0
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] Registering internal Placeholders...
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] Starting AdvancedServerList v5.6.0...
+[22:02:16] [Server thread/INFO]: [AdvancedServerList]      __      _______ ___
+[22:02:16] [Server thread/INFO]: [AdvancedServerList]     /\ \    / ____|_| | |
+[22:02:16] [Server thread/INFO]: [AdvancedServerList]    /  \ \  | (_(___ | | |
+[22:02:16] [Server thread/INFO]: [AdvancedServerList]   / /\ \ \  \___ \ \| | |
+[22:02:16] [Server thread/INFO]: [AdvancedServerList]  / ____ \ \ ____) | | |_|____
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] /_/_/  \_\_\_____/_/|______|_|
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] 
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] Platform: Paper (ID: papermc:paper, Version: 1.21.8, Build: 6)
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] 
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] [-] Loading profiles...
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] [✓] Successfully loaded 1 profile(s)!
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] [-] Loading local images as Favicons...
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] [✓] Loaded 0 local Favicon(s).
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] [✓] Loaded Command /advancedserverlist!
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] [✓] Loaded 1 players into cache!
+[22:02:16] [Server thread/INFO]: [AdvancedServerList] [✓] AdvancedServerList is ready!
+[22:02:16] [AdvancedServerList-UpdateThread/INFO]: [AdvancedServerList] [-] Looking for an update...
+[22:02:16] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: asl [5.6.0]
+[22:02:16] [Server thread/INFO]: [RealScoreboard] Enabling RealScoreboard v1.5.6
+[22:02:16] [Server thread/INFO]: [RealScoreboard]    ____            _ ____                     _                         _
+[22:02:16] [Server thread/INFO]: [RealScoreboard]   |  _ \ ___  __ _| / ___|  ___ ___  _ __ ___| |__   ___   __ _ _ __ __| |
+[22:02:16] [Server thread/INFO]: [RealScoreboard]   | |_) / _ \/ _` | \___ \ / __/ _ \| '__/ _ \ '_ \ / _ \ / _` | '__/ _` |
+[22:02:16] [Server thread/INFO]: [RealScoreboard]   |  _ <  __/ (_| | |___) | (_| (_) | | |  __/ |_) | (_) | (_| | | | (_| |
+[22:02:16] [Server thread/INFO]: [RealScoreboard]   |_| \_\___|\__,_|_|____/ \___\___/|_|  \___|_.__/ \___/ \__,_|_|  \__,_|
+[22:02:16] [Server thread/INFO]: [RealScoreboard]   Made by: JoseGamer_PT 		                      Version: 1.5.6
+[22:02:16] [Server thread/INFO]: [RealScoreboard] 
+[22:02:17] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] =======================================================================
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] You are running an outdated version of AdvancedServerList!
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] 
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] Your version: 5.6.0
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] Modrinth:     5.7.0-b2
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] 
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] WARNING!
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] This is a beta version and may contain breaking changes and/or bugs!
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] 
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] Download the latest version from here:
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] https://modrinth.com/plugin/advancedserverlist/version/zDBeGshw
+[22:02:17] [ForkJoinPool.commonPool-worker-1/WARN]: [AdvancedServerList] =======================================================================
+[22:02:17] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:02:17] [Server thread/INFO]: [RealScoreboard] Server version: 1.21.8-R0.1-SNAPSHOT
+[22:02:17] [Server thread/INFO]: [RealScoreboard] Finished loading in 0.602 seconds.
+[22:02:17] [Server thread/INFO]: [RealScoreboard] <------------------ RealScoreboard v1.5.6 ------------------>
+[22:02:17] [Server thread/INFO]: [RaLP] Enabling RaLP v0.7
+[22:02:17] [Server thread/WARN]: [RaLP] Could not save messages.yml to plugins/RaLP/messages.yml because messages.yml already exists.
+[22:02:17] [Server thread/INFO]: [RaLP] Selected language: en_us
+[22:02:17] [Server thread/INFO]: [ItemTag] Enabling ItemTag v3.7.1
+[22:02:17] [Server thread/INFO]: [ItemTag] Data using Spigot PersistentDataContainer
+[22:02:17] [Server thread/INFO]: [ItemTag] EquipmentChangeListener
+[22:02:17] [Server thread/INFO]: [ItemTag] Hooking into PlaceholderApi
+[22:02:17] [Server thread/INFO]: [ItemTag] Hooked into PlaceHolderAPI:
+[22:02:17] [Server thread/INFO]: [ItemTag] placeholders:
+[22:02:17] [Server thread/INFO]: [ItemTag]   %itemtag_cooldown_<timeunit>_[cooldownid]%
+[22:02:17] [Server thread/INFO]: [ItemTag]     shows how much cooldown has selected cooldownid for player
+[22:02:17] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[22:02:17] [Server thread/INFO]: [ItemTag]     [cooldownid] for cooldown type, by default default
+[22:02:17] [Server thread/INFO]: [ItemTag]     example: %itemtag_cooldown_s_anid%
+[22:02:17] [Server thread/INFO]: [ItemTag]   %itemtag_handcooldown_<timeunit>%
+[22:02:17] [Server thread/INFO]: [ItemTag]     shows how much cooldown has player on the item in his hand
+[22:02:17] [Server thread/INFO]: [ItemTag]     <timeunit> may be h, s or ms
+[22:02:17] [Server thread/INFO]: [ItemTag]     example: %itemtag_handcooldown_s%
+[22:02:17] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: itemtag [1.0]
+[22:02:17] [Server thread/INFO]: [ItemTag] # Enabled (took 110 ms)
+[22:02:17] [Server thread/INFO]: [AxRewards] Enabling AxRewards v3.6.1
+[22:02:18] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: axrewards [1.0.0]
+[22:02:18] [Server thread/INFO]: [AxRewards] Hooked into PlaceholderAPI!
+[22:02:18] [Server thread/INFO]: [AxRewards] Loaded plugin! Using H2 database to store data!
+[22:02:18] [Server thread/INFO]: [PlayerKits2] Enabling PlayerKits2 v1.19.1
+[22:02:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: playerkits [1.19.1]
+[22:02:19] [Server thread/INFO]: [PlayerKits²] Has been enabled! Version: 1.19.1
+[22:02:19] [Server thread/INFO]: [PlayerKits²] Thanks for using my plugin!   ~Ajneb97
+[22:02:19] [Server thread/INFO]: [RealMines] Enabling RealMines v1.8.7
+[22:02:19] [Server thread/INFO]: [RealMines]    _____           ____  ____
+[22:02:19] [Server thread/INFO]: [RealMines]   | ___ \         | |  \/  (_)  Version: 1.8.7
+[22:02:19] [Server thread/INFO]: [RealMines]   | |_/ /___  __ _| | .  . |_ _ __   ___  ___
+[22:02:19] [Server thread/INFO]: [RealMines]   |    // _ \/ _` | | |\/| | | '_ \ / _ \/ __|
+[22:02:19] [Server thread/INFO]: [RealMines]   | |\ \  __/ (_| | | |  | | | | | |  __/\__ \
+[22:02:19] [Server thread/INFO]: [RealMines]   \_| \_\___|\__,_|_\_|  |_/_|_| |_|\___||___/
+[22:02:19] [Server thread/INFO]: [RealMines]                          Made by: JoseGamer_PT
+[22:02:19] [Server thread/INFO]: [RealMines] Hooked into Vault!
+[22:02:19] [Server thread/INFO]: [RealMines] Loading Mines.
+[22:02:19] [Server thread/INFO]: [RealMines] Loaded 1 mines and 0 mine signs.
+[22:02:19] [Server thread/INFO]: [RealMines] Loaded 0 mine tasks.
+[22:02:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: realmines [1.8.7]
+[22:02:19] [Server thread/INFO]: [RealMines] Hooked onto PlaceholderAPI!
+[22:02:19] [Server thread/INFO]: [RealMines] Using FAWE/WorldEdit for block placement.
+[22:02:19] [Server thread/INFO]: [RealMines] Finished loading in 0.391 seconds.
+[22:02:19] [Server thread/INFO]: [RealMines] <------------------ RealMines v1.8.7 ------------------>
+[22:02:19] [Server thread/INFO]: [BetterRTP] Enabling BetterRTP v3.6.13
+[22:02:19] [Server thread/INFO]: [BetterRTP] Cooldown = 10
+[22:02:19] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: betterrtp [3.6.13]
+[22:02:19] [Server thread/INFO]: [FancyNpcs] Enabling FancyNpcs v2.8.0.302
+[22:02:19] [Server thread/WARN]: [org.mineskin.MineSkinClient] Creating MineSkinClient without API key
+[22:02:20] [FancyLogger/INFO]: [FancyNpcs] (Server thread) INFO: FancyNpcs (2.8.0.302) has been enabled.
+[22:02:20] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.10
+[22:02:20] [Server thread/INFO]: [TAB] Enabling TAB v5.3.2
+[22:02:20] [Server thread/INFO]: [TAB] Enabled in 239ms
+[22:02:20] [Server thread/INFO]: [AvC] Enabling AvC v1.0*
+[22:02:20] [Server thread/INFO]: [AvC] [AvC] Plugin activado
+[22:02:20] [Server thread/INFO]: [Themis] Enabling Themis v0.17.6
+[22:02:20] [Server thread/WARN]: [Themis] Couldn't find Floodgate which is required for Bedrock support
+[22:02:20] [Server thread/INFO]: [Rtpgui] Enabling Rtpgui v1.0
+[22:02:20] [Server thread/INFO]: [Graves] Enabling Graves v4.9.9
+[22:02:20] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.14+2339-43997ec.
+[22:02:20] [Server thread/INFO]: [Graves] Integration: Hooked into Vault 1.7.3-b131.
+[22:02:21] [Server thread/INFO]: [Graves] Integration: Hooked into WorldEdit 7.3.17-beta-01+5a4f79c.
+[22:02:21] [Server thread/INFO]: [Graves] Integration: Hooked into WorldGuard 7.0.14+2339-43997ec.
+[22:02:21] [Server thread/INFO]: [Graves] Integration: Hooked into MiniMessage.
+[22:02:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: graves [4.9.9]
+[22:02:21] [Server thread/INFO]: [Graves] Integration: Hooked into PlaceholderAPI 2.11.6.
+[22:02:21] [Server thread/INFO]: [Graves] Compatibility: Essentials Detected, make sure you don't have the essentials.keepinv or essentials.keepxp permissions.
+[22:02:21] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.5
+[22:02:21] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[22:02:21] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[22:02:21] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI support enabled!
+[22:02:21] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: protectionstones [2.10.5]
+[22:02:21] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[22:02:21] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[22:02:21] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[22:02:21] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[22:02:21] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[22:02:21] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[22:02:21] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[22:02:21] [Server thread/INFO]: [UberEnchant] Enabling UberEnchant v8.12.0
+[22:02:21] [Server thread/INFO]: [UberEnchant] Updated translations in locale/en_us.properties!
+[22:02:21] [Server thread/INFO]: [SetSpawn] Enabling SetSpawn v5.5.1
+[22:02:21] [Server thread/INFO]: [SetSpawn] Enabled!
+[22:02:22] [Server thread/INFO]: [spark] Starting background profiler...
+[22:02:23] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[22:02:23] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[22:02:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:02:23] [Server thread/INFO]: [Geyser-Spigot] 
+[22:02:23] [Server thread/INFO]: [Geyser-Spigot] Loading Geyser version 2.8.4-b948 (git-master-3f27e57)
+[22:02:23] [Server thread/INFO]: [Geyser-Spigot] 
+[22:02:23] [Server thread/INFO]: [Geyser-Spigot] ******************************************
+[22:02:26] [GeyserServer-3-1/INFO]: [Geyser-Spigot] Started Geyser on UDP port 19132
+[22:02:26] [Server thread/INFO]: [Geyser-Spigot] Done (3.214s)! Run /geyser help for help!
+[22:02:26] [ForkJoinPool.commonPool-worker-1/INFO]: [Geyser-Spigot] There's a new Geyser update available to support Bedrock version 1.21.120. Download it here: https://geysermc.org/download
+[22:02:27] [Server thread/INFO]: Done preparing level "world" (25.166s)
+[22:02:27] [Server thread/INFO]: Running delayed init tasks
+[22:02:27] [Craft Scheduler Thread - 5 - ViaVersion/INFO]: [ViaVersion] Finished mapping loading, shutting down loader executor.
+[22:02:27] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[22:02:27] [Craft Scheduler Thread - 7 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:02:27] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] Checking for Updates ... 
+[22:02:27] [Craft Scheduler Thread - 5 - ItemEdit/INFO]: [ItemEdit] New Update at https://spigotmc.org/resources/40993
+[22:02:27] [Craft Scheduler Thread - 9 - DecentHolograms/INFO]: 
+A newer version of DecentHolograms is available. Download it from: 
+- https://www.spigotmc.org/resources/96927/
+- https://modrinth.com/plugin/decentholograms
+[22:02:27] [Craft Scheduler Thread - 13 - RealScoreboard/INFO]: [RealScoreboard] The plugin is updated to the latest version.
+[22:02:27] [Craft Scheduler Thread - 15 - ItemTag/INFO]: [ItemTag] New Update at https://spigotmc.org/resources/89634
+[22:02:27] [Craft Scheduler Thread - 16 - RealMines/INFO]: [RealMines] The plugin is updated to the latest version.
+[22:02:27] [Craft Scheduler Thread - 22 - Vault/INFO]: [Vault] No new version available
+[22:02:27] [Server thread/INFO]: [UberEnchant] ======================================================
+[22:02:27] [Server thread/INFO]: [UberEnchant] ||  Custom enchantment table mechanics are enabled  ||
+[22:02:27] [Server thread/INFO]: [UberEnchant] ||  Custom anvil mechanics are enabled              ||
+[22:02:27] [Server thread/INFO]: [UberEnchant] ||  Found 42 vanilla enchantments.                  ||
+[22:02:27] [Server thread/INFO]: [UberEnchant] ||  Loaded: 38 default UberEnchantments.            ||
+[22:02:27] [Server thread/INFO]: [UberEnchant] ||  Loaded: 0 UberEnchantments.                     ||
+[22:02:27] [Server thread/INFO]: [UberEnchant] ||  Total Enchantments: 80                          ||
+[22:02:27] [Server thread/INFO]: [UberEnchant] ======================================================
+[22:02:27] [Server thread/INFO]: [AuraSkills] Loaded 11 skills with 317 total sources
+[22:02:27] [Server thread/INFO]: [AuraSkills] Loaded 9 stats and 17 traits
+[22:02:27] [Server thread/INFO]: [AuraSkills] Loaded 22 pattern rewards and 0 level rewards
+[22:02:28] [Server thread/INFO]: [AuraSkills] Loaded 53 loot entries in 4 pools and 2 tables
+[22:02:28] [Server thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[22:02:28] [Server thread/INFO]: [AuraSkills] Loaded 7 menus
+[22:02:28] [Server thread/INFO]: Done (79.090s)! For help, type "help"
+[22:02:28] [Craft Scheduler Thread - 7 - CratesPlus/INFO]: Checking for updates via Spigot...
+[22:02:28] [Craft Scheduler Thread - 7 - CratesPlus/INFO]: [CratesPlus] No update was found, you are running the latest version. Will check again later.
+[22:03:52] [User Authenticator #0/INFO]: UUID of player KEVIN129126492 is 24d190f0-6cb2-337e-8d63-c8695e245384
+[22:03:52] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, Themis, Essentials, DeluxeMenus, WorldGuard]
+[22:03:53] [Netty Epoll Server IO #0/WARN]: [ViaBackwards] (1.17->1.16.4) Increased world height is NOT SUPPORTED for 1.16 players and below. They will see a void below y 0 and above 256. You can enable the `bedrock-at-y-0` config option to replace the air with a bedrock layer.
+[22:03:53] [Server thread/INFO]: KEVIN129126492 joined the game
+[22:03:54] [Server thread/INFO]: KEVIN129126492[/127.165.117.130:49717] logged in with entity id 80 at ([world]240.0, 63.0, -143.0)
+[22:03:54] [Craft Scheduler Thread - 11 - RealScoreboard/INFO]: [RealScoreboard] Using 1.17+ ping method.
+[22:04:25] [Server thread/INFO]: KEVIN129126492 was kicked due to keepalive timeout!
+[22:04:25] [Server thread/INFO]: KEVIN129126492 lost connection: Timed out
+[22:04:25] [Server thread/INFO]: KEVIN129126492 left the game
+[22:04:37] [User Authenticator #0/INFO]: UUID of player KEVIN129126492 is 24d190f0-6cb2-337e-8d63-c8695e245384
+[22:04:37] [Server thread/INFO]: KEVIN129126492 joined the game
+[22:04:37] [Server thread/INFO]: KEVIN129126492[/127.165.117.130:54517] logged in with entity id 223 at ([world]240.0, 63.0, -143.0)
+[22:04:55] [Server thread/INFO]: KEVIN129126492 issued server command: /login jose1212
+[22:04:55] [Server thread/INFO]: KEVIN129126492 issued server command: /login jose1212$
+[22:04:57] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:05:11] [Server thread/INFO]: KEVIN129126492 issued server command: /clear
+[22:05:13] [Server thread/INFO]: KEVIN129126492 issued server command: /gm 1
+[22:05:54] [Server thread/INFO]: KEVIN129126492 issued server command: /npc create OneBlock
+[22:06:05] [Server thread/INFO]: KEVIN129126492 issued server command: /npc center OneBlock
+[22:06:14] [Server thread/INFO]: KEVIN129126492 issued server command: /npc skin Vmario
+[22:06:17] [Server thread/INFO]: KEVIN129126492 issued server command: /npc skin Vmario
+[22:06:32] [Server thread/INFO]: KEVIN129126492 issued server command: /npc skin Eduardolugo51
+[22:06:41] [Server thread/INFO]: KEVIN129126492 issued server command: /npc skin OneBlock Vmario
+[22:07:27] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:09:57] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:11:38] [Server thread/INFO]: KEVIN129126492 issued server command: /npc displayname OneBlock &a&lOneBlock
+[22:11:56] [Server thread/INFO]: KEVIN129126492 issued server command: /mv create
+[22:12:27] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:14:57] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:15:30] [Server thread/INFO]: KEVIN129126492 issued server command: /mv create OneBlock normal -g VoidGen
+[22:15:30] [Server thread/INFO]: [VoidGen] 
+[22:15:30] [Server thread/INFO]: [VoidGen] > ——————————————————————[ OneBlock ]——————————————————————
+[22:15:30] [Server thread/INFO]: [VoidGen] > 
+[22:15:30] [Server thread/INFO]: [VoidGen] > Generator settings have not been set, we will use the default settings:
+[22:15:30] [Server thread/INFO]: [VoidGen] > {"biome":"the_void"}
+[22:15:30] [Server thread/INFO]: [VoidGen] > 
+[22:15:30] [Server thread/INFO]: [VoidGen] > ——————————————————————[ OneBlock ]——————————————————————
+[22:15:30] [Server thread/INFO]: [VoidGen] 
+[22:15:30] [Server thread/INFO]: Preparing start region for dimension minecraft:oneblock
+[22:15:30] [Server thread/INFO]: Preparing spawn area: 0%
+[22:15:31] [Server thread/INFO]: Preparing spawn area: 0%
+[22:15:31] [Server thread/INFO]: Preparing spawn area: 0%
+[22:15:32] [Server thread/INFO]: Preparing spawn area: 0%
+[22:15:32] [Server thread/INFO]: Preparing spawn area: 18%
+[22:15:33] [Server thread/INFO]: Preparing spawn area: 18%
+[22:15:33] [Server thread/INFO]: Preparing spawn area: 51%
+[22:15:34] [Server thread/INFO]: Preparing spawn area: 51%
+[22:15:34] [Server thread/INFO]: Time elapsed: 3628 ms
+[22:15:34] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[22:15:34] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[22:15:34] [Server thread/INFO]: [WorldGuard] (OneBlock) TNT ignition is PERMITTED.
+[22:15:34] [Server thread/INFO]: [WorldGuard] (OneBlock) Lighters are PERMITTED.
+[22:15:34] [Server thread/INFO]: [WorldGuard] (OneBlock) Lava fire is PERMITTED.
+[22:15:34] [Server thread/INFO]: [WorldGuard] (OneBlock) Fire spread is UNRESTRICTED.
+[22:15:34] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'OneBlock'
+[22:15:34] [Server thread/WARN]: [Multiverse-Core] Spawn location from world.dat file was unsafe. Adjusting...
+[22:15:34] [Server thread/WARN]: [Multiverse-Core] Original Location: X: 0 Y: 64 Z: 0 P: 0 Y: 0 
+[22:15:34] [Server thread/INFO]: [Multiverse-Core] New Spawn for 'OneBlock' is located at: OneBlock:0.50,65.00,0.50:0.00:0.00
+[22:15:34] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 3682ms or 73 ticks behind
+[22:16:04] [Server thread/INFO]: KEVIN129126492 issued server command: /mv tp KEVIN129126492 OneBlock
+[22:16:25] [Server thread/INFO]: KEVIN129126492 issued server command: /gm 1
+[22:16:29] [Async Chat Thread - #0/INFO]: [Not Secure] <OWNER KEVIN129126492> xd
+[22:17:20] [Server thread/INFO]: KEVIN129126492 issued server command: /ob join
+[22:17:23] [Server thread/INFO]: KEVIN129126492 issued server command: /ob join
+[22:17:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:17:51] [Server thread/INFO]: KEVIN129126492 issued server command: /ob set
+[22:18:03] [Server thread/INFO]: KEVIN129126492 issued server command: /ob set
+[22:18:06] [Server thread/INFO]: KEVIN129126492 issued server command: /ob join
+[22:18:20] [Server thread/WARN]: [Oneblock] Task #10498 for Oneblock v1.4.3b generated an exception
+org.bukkit.command.CommandException: Unhandled exception executing 'tellraw KEVIN129126492 " §2Congratulations KEVIN129126492! You have reached a new level 1! "
+' in org.bukkit.craftbukkit.command.VanillaCommandWrapper(tellraw)
+	at org.bukkit.craftbukkit.CraftServer.dispatchCommand(CraftServer.java:1003) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.Bukkit.dispatchCommand(Bukkit.java:1116) ~[paper-api-1.21.8-R0.1-SNAPSHOT.jar:?]
+	at Oneblock-1.4.3b.jar/Oneblock.RewardManager.executeCommandList(RewardManager.java:89) ~[Oneblock-1.4.3b.jar:?]
+	at Oneblock-1.4.3b.jar/Oneblock.RewardManager.executeRewards(RewardManager.java:72) ~[Oneblock-1.4.3b.jar:?]
+	at Oneblock-1.4.3b.jar/Oneblock.Oneblock.BlockGen(Oneblock.java:261) ~[Oneblock-1.4.3b.jar:?]
+	at Oneblock-1.4.3b.jar/Oneblock.Events.BlockEvent.lambda$BlockBreak$0(BlockEvent.java:59) ~[Oneblock-1.4.3b.jar:?]
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at org.bukkit.craftbukkit.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:474) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.tickChildren(MinecraftServer.java:1662) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.tickServer(MinecraftServer.java:1530) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1252) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: com.mojang.brigadier.exceptions.CommandSyntaxException: Expected whitespace to end one argument, but found trailing data at position 92: ...level 1! "<--[HERE]
+[22:20:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:22:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:22:51] [Server thread/INFO]: KEVIN129126492 issued server command: /lobby
+[22:25:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:27:11] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:27:11] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:27:11] [Server thread/ERROR]: [RealScoreboard] world doesn't have a default scoreboard set!
+[22:27:11] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:27:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:29:15] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:29:15] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:29:15] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:30:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:32:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:35:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:37:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:39:08] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:39:08] [Server thread/ERROR]: Command exception: /realscoreboard reload
+dev.triumphteam.cmd.core.exceptions.CommandExecutionException: An error occurred while executing the command. On "realscoreboard" command on "reload" sub command.
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:184) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.execution.SyncExecutionProvider.execute(SyncExecutionProvider.java:32) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.execute(AbstractSubCommand.java:180) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.bukkit.BukkitCommand.execute(BukkitCommand.java:104) ~[RealScoreboard.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2372) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2327) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.exceptions.ParserException: while parsing a block mapping
+ in reader, line 29, column 9:
+            Title:
+            ^
+expected <block end>, but found '<block mapping start>'
+ in reader, line 42, column 11:
+              Survival OP:
+              ^
+
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:692) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.lambda$produce$1(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.produce(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.peekEvent(ParserImpl.java:186) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:137) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:117) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeSequenceNode(Composer.java:263) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:199) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.next(Composer.java:153) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:252) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:222) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:179) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:158) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.api.config.RSBScoreboards.reload(RSBScoreboards.java:82) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.RealScoreboard.reload(RealScoreboard.java:83) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.commands.RealScoreboardCommand.reloadcmd(RealScoreboardCommand.java:66) ~[RealScoreboard.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:182) ~[RealScoreboard.jar:?]
+	... 29 more
+[22:39:41] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:39:41] [Server thread/ERROR]: Command exception: /realscoreboard reload
+dev.triumphteam.cmd.core.exceptions.CommandExecutionException: An error occurred while executing the command. On "realscoreboard" command on "reload" sub command.
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:184) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.execution.SyncExecutionProvider.execute(SyncExecutionProvider.java:32) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.execute(AbstractSubCommand.java:180) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.bukkit.BukkitCommand.execute(BukkitCommand.java:104) ~[RealScoreboard.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2372) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2327) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.exceptions.ParserException: while parsing a block mapping
+ in reader, line 56, column 9:
+            Title:
+            ^
+expected <block end>, but found '<block mapping start>'
+ in reader, line 77, column 11:
+              OneBlock:
+              ^
+
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:692) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.lambda$produce$1(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.produce(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.peekEvent(ParserImpl.java:186) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:137) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:117) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeSequenceNode(Composer.java:263) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:199) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.next(Composer.java:153) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:252) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:222) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:179) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:158) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.api.config.RSBScoreboards.reload(RSBScoreboards.java:82) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.RealScoreboard.reload(RealScoreboard.java:83) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.commands.RealScoreboardCommand.reloadcmd(RealScoreboardCommand.java:66) ~[RealScoreboard.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:182) ~[RealScoreboard.jar:?]
+	... 29 more
+[22:40:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:40:13] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:40:13] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:40:13] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:41:10] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:41:10] [Server thread/ERROR]: Command exception: /realscoreboard reload
+dev.triumphteam.cmd.core.exceptions.CommandExecutionException: An error occurred while executing the command. On "realscoreboard" command on "reload" sub command.
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:184) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.execution.SyncExecutionProvider.execute(SyncExecutionProvider.java:32) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.execute(AbstractSubCommand.java:180) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.bukkit.BukkitCommand.execute(BukkitCommand.java:104) ~[RealScoreboard.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2372) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2327) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.exceptions.ParserException: while parsing a block mapping
+ in reader, line 55, column 7:
+          Board1:
+          ^
+expected <block end>, but found '<alias>'
+ in reader, line 81, column 8:
+        - '*'
+           ^
+
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:692) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.lambda$produce$1(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.produce(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.peekEvent(ParserImpl.java:186) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:137) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:117) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:301) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.next(Composer.java:153) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:252) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:222) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:179) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:158) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.api.config.RSBScoreboards.reload(RSBScoreboards.java:82) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.RealScoreboard.reload(RealScoreboard.java:83) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.commands.RealScoreboardCommand.reloadcmd(RealScoreboardCommand.java:66) ~[RealScoreboard.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:182) ~[RealScoreboard.jar:?]
+	... 29 more
+[22:41:57] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:41:57] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:41:57] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:42:07] [Server thread/INFO]: KEVIN129126492 issued server command: /mv tp KEVIN129126492 OneBlock
+[22:42:21] [Server thread/INFO]: KEVIN129126492 issued server command: /mv tp KEVIN129126492 Survival
+[22:42:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:45:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:45:28] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:45:28] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:45:28] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:45:37] [Server thread/INFO]: KEVIN129126492 issued server command: /mv tp KEVIN129126492 OneBlock
+[22:45:51] [Server thread/INFO]: KEVIN129126492 issued server command: /mv tp KEVIN129126492 world
+[22:47:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:50:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:52:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:52:32] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:52:32] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:52:32] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:52:35] [Server thread/INFO]: Error: Invalid player: %player%. Either specify an online player or use this command as a player.
+[22:52:35] [Server thread/INFO]: Usage: mvtp [player] <destination> [--unsafe]
+[22:52:35] [Server thread/INFO]: KEVIN129126492 issued server command: /mv tp Survival
+[22:54:37] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:54:37] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:54:37] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:54:51] [Server thread/INFO]: KEVIN129126492 issued server command: /mv tp KEVIN129126492 OneBlock
+[22:55:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:55:09] [Server thread/INFO]: KEVIN129126492 issued server command: /mv tp KEVIN129126492 world
+[22:56:45] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:56:45] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:56:45] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:57:18] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:57:18] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:57:18] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:57:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[22:57:56] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:57:56] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:57:56] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[22:59:21] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[22:59:21] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[22:59:21] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[23:00:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[23:00:25] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[23:00:25] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[23:00:25] [Server thread/INFO]: [RealScoreboard] Loaded 1 scoreboards.
+[23:02:30] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[23:02:31] [Craft Scheduler Thread - 79 - CratesPlus/INFO]: Checking for updates via Spigot...
+[23:02:31] [Craft Scheduler Thread - 79 - CratesPlus/INFO]: [CratesPlus] No update was found, you are running the latest version. Will check again later.
+[23:03:38] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[23:03:38] [Server thread/ERROR]: Command exception: /realscoreboard reload
+dev.triumphteam.cmd.core.exceptions.CommandExecutionException: An error occurred while executing the command. On "realscoreboard" command on "reload" sub command.
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:184) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.execution.SyncExecutionProvider.execute(SyncExecutionProvider.java:32) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.execute(AbstractSubCommand.java:180) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.bukkit.BukkitCommand.execute(BukkitCommand.java:104) ~[RealScoreboard.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2372) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2327) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.exceptions.ScannerException: while scanning a simple key
+ in reader, line 17, column 5:
+        Default-World:world
+        ^
+could not find expected ':'
+ in reader, line 18, column 1:
+        Other-Worlds:
+    ^
+
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:457) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:279) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.scanner.ScannerImpl.checkToken(ScannerImpl.java:191) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:674) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.lambda$produce$1(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.produce(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.peekEvent(ParserImpl.java:186) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:137) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:117) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeScalarNode(Composer.java:228) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:197) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.next(Composer.java:153) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:252) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:222) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:179) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:158) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.api.config.RSBScoreboards.reload(RSBScoreboards.java:82) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.RealScoreboard.reload(RealScoreboard.java:83) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.commands.RealScoreboardCommand.reloadcmd(RealScoreboardCommand.java:66) ~[RealScoreboard.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:182) ~[RealScoreboard.jar:?]
+	... 29 more
+[23:04:17] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[23:04:17] [Server thread/ERROR]: Command exception: /realscoreboard reload
+dev.triumphteam.cmd.core.exceptions.CommandExecutionException: An error occurred while executing the command. On "realscoreboard" command on "reload" sub command.
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:184) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.execution.SyncExecutionProvider.execute(SyncExecutionProvider.java:32) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.execute(AbstractSubCommand.java:180) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.bukkit.BukkitCommand.execute(BukkitCommand.java:104) ~[RealScoreboard.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2372) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2327) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.exceptions.ScannerException: while scanning a simple key
+ in reader, line 17, column 5:
+        Default-World:world
+        ^
+could not find expected ':'
+ in reader, line 18, column 1:
+        Other-Worlds:
+    ^
+
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.scanner.ScannerImpl.stalePossibleSimpleKeys(ScannerImpl.java:457) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.scanner.ScannerImpl.needMoreTokens(ScannerImpl.java:279) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.scanner.ScannerImpl.checkToken(ScannerImpl.java:191) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl$ParseBlockMappingKey.produce(ParserImpl.java:674) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.lambda$produce$1(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[?:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.produce(ParserImpl.java:212) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.parser.ParserImpl.peekEvent(ParserImpl.java:186) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:59) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector$1.peek(CommentEventsCollector.java:45) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:137) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.comments.CommentEventsCollector.collectEvents(CommentEventsCollector.java:117) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeScalarNode(Composer.java:228) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:197) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeValueNode(Composer.java:319) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingChildren(Composer.java:310) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeMappingNode(Composer.java:294) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.composeNode(Composer.java:201) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.libs.org.snakeyaml.engine.v2.composer.Composer.next(Composer.java:153) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:252) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:222) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:179) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.dejvokep.boostedyaml.YamlDocument.reload(YamlDocument.java:158) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.api.config.RSBScoreboards.reload(RSBScoreboards.java:82) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.RealScoreboard.reload(RealScoreboard.java:83) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.commands.RealScoreboardCommand.reloadcmd(RealScoreboardCommand.java:66) ~[RealScoreboard.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:182) ~[RealScoreboard.jar:?]
+	... 29 more
+[23:05:00] [Server thread/INFO]: RealMines > Mine Mina User just reset.
+[23:05:33] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[23:05:33] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[23:05:33] [Server thread/ERROR]: Command exception: /realscoreboard reload
+dev.triumphteam.cmd.core.exceptions.CommandExecutionException: An error occurred while executing the command. On "realscoreboard" command on "reload" sub command.
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:184) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.execution.SyncExecutionProvider.execute(SyncExecutionProvider.java:32) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.execute(AbstractSubCommand.java:180) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.bukkit.BukkitCommand.execute(BukkitCommand.java:104) ~[RealScoreboard.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2372) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2327) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "dev.dejvokep.boostedyaml.block.implementation.Section.getRoutesAsStrings(boolean)" because the return value of "dev.dejvokep.boostedyaml.YamlDocument.getSection(String)" is null
+	at RealScoreboard.jar/joserodpt.realscoreboard.api.scoreboard.RScoreboardBoards.<init>(RScoreboardBoards.java:36) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.managers.ScoreboardManagerAPI.loadScoreboards(ScoreboardManagerAPI.java:82) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.managers.ScoreboardManagerAPI.reload(ScoreboardManagerAPI.java:210) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.RealScoreboard.reload(RealScoreboard.java:86) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.commands.RealScoreboardCommand.reloadcmd(RealScoreboardCommand.java:66) ~[RealScoreboard.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:182) ~[RealScoreboard.jar:?]
+	... 29 more
+[23:05:38] [Server thread/INFO]: KEVIN129126492 issued server command: /realscoreboard reload
+[23:05:38] [Server thread/INFO]: [RealScoreboard] Loaded 2 conditions.
+[23:05:38] [Server thread/ERROR]: Command exception: /realscoreboard reload
+dev.triumphteam.cmd.core.exceptions.CommandExecutionException: An error occurred while executing the command. On "realscoreboard" command on "reload" sub command.
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:184) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.execution.SyncExecutionProvider.execute(SyncExecutionProvider.java:32) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.execute(AbstractSubCommand.java:180) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.bukkit.BukkitCommand.execute(BukkitCommand.java:104) ~[RealScoreboard.jar:?]
+	at io.papermc.paper.command.brigadier.bukkit.BukkitCommandNode$BukkitBrigCommand.run(BukkitCommandNode.java:83) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at com.mojang.brigadier.context.ContextChain.runExecutable(ContextChain.java:73) ~[brigadier-1.3.10.jar:?]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:30) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.tasks.ExecuteCommand.execute(ExecuteCommand.java:13) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.UnboundEntryAction.lambda$bind$0(UnboundEntryAction.java:8) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.CommandQueueEntry.execute(CommandQueueEntry.java:5) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.execution.ExecutionContext.runCommandQueue(ExecutionContext.java:105) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.executeCommandInContext(Commands.java:451) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:357) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.commands.Commands.performCommand(Commands.java:345) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.performSignedChatCommand(ServerGamePacketListenerImpl.java:2372) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.network.ServerGamePacketListenerImpl.lambda$handleSignedChatCommand$13(ServerGamePacketListenerImpl.java:2327) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.TickTask.run(TickTask.java:18) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.doRunTask(BlockableEventLoop.java:155) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.ReentrantBlockableEventLoop.doRunTask(ReentrantBlockableEventLoop.java:24) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:1449) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.doRunTask(MinecraftServer.java:176) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.pollTask(BlockableEventLoop.java:129) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTaskInternal(MinecraftServer.java:1429) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.pollTask(MinecraftServer.java:1423) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.util.thread.BlockableEventLoop.managedBlock(BlockableEventLoop.java:139) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.managedBlock(MinecraftServer.java:1380) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.waitUntilNextTick(MinecraftServer.java:1388) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.runServer(MinecraftServer.java:1265) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at net.minecraft.server.MinecraftServer.lambda$spin$2(MinecraftServer.java:310) ~[paper-1.21.8.jar:1.21.8-6-782ce95]
+	at java.base/java.lang.Thread.run(Thread.java:1583) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "dev.dejvokep.boostedyaml.block.implementation.Section.getRoutesAsStrings(boolean)" because the return value of "dev.dejvokep.boostedyaml.YamlDocument.getSection(String)" is null
+	at RealScoreboard.jar/joserodpt.realscoreboard.api.scoreboard.RScoreboardBoards.<init>(RScoreboardBoards.java:36) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.managers.ScoreboardManagerAPI.loadScoreboards(ScoreboardManagerAPI.java:82) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.managers.ScoreboardManagerAPI.reload(ScoreboardManagerAPI.java:210) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.RealScoreboard.reload(RealScoreboard.java:86) ~[RealScoreboard.jar:?]
+	at RealScoreboard.jar/joserodpt.realscoreboard.commands.RealScoreboardCommand.reloadcmd(RealScoreboardCommand.java:66) ~[RealScoreboard.jar:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at RealScoreboard.jar/dev.triumphteam.cmd.core.AbstractSubCommand.lambda$execute$0(AbstractSubCommand.java:182) ~[RealScoreboard.jar:?]
+	... 29 more

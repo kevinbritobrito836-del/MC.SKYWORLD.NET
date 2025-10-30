@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 127.83.82.48
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1761790692375
+  login: 1761789437144
+money: '0'
+last-account-name: elprolauty777
+lastlocation:
+  world: accf1898-3e6c-4dbc-a8b3-4422736a5f6d
+  world-name: world
+  x: 166.69999998807907
+  y: 67.0
+  z: 605.3000000119209
+  yaw: -142.9425811767578
+  pitch: 90.0
+logoutlocation:
+  world: 5f9abbfc-40c0-40f2-bcf6-785ccb676ee9
+  world-name: Survival
+  x: 0.8048366165303896
+  y: 72.0
+  z: 57.192818860612824
+  yaw: 160.91265869140625
+  pitch: 62.102081298828125

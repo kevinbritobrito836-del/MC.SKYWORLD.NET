@@ -1,0 +1,1450 @@
+Config Version: 6
+Update Checks: true
+Update Branch: spigot
+Metrics: true
+Default Opener: BasicGUI
+Default Cooldown: 5
+Crate Protection: false
+Disable Key Swapping: false
+Default Hologram Text:
+- '%crate%'
+- Right-Click to Open!
+- Left-Click to Preview!
+Crates:
+  Legendaria:
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: WHITE
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-3
+        - PROTECTION_ENVIRONMENTAL-4
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 4
+            minecraft:unbreaking: 3
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-3
+        - PROTECTION_ENVIRONMENTAL-4
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 4
+            minecraft:unbreaking: 3
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-3
+        - PROTECTION_ENVIRONMENTAL-4
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 4
+            minecraft:unbreaking: 3
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-3
+        - PROTECTION_ENVIRONMENTAL-4
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 4
+            minecraft:unbreaking: 3
+      '5':
+        Type: ITEM
+        Item Type: NETHERITE_SWORD
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-3
+        - LOOT_BONUS_MOBS-2
+        - DAMAGE_ALL-4
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:looting: 2
+            minecraft:sharpness: 4
+            minecraft:unbreaking: 3
+      '6':
+        Type: ITEM
+        Item Type: NETHERITE_PICKAXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-4
+        - DURABILITY-3
+        - LOOT_BONUS_BLOCKS-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 4
+            minecraft:fortune: 2
+            minecraft:unbreaking: 3
+      '7':
+        Type: ITEM
+        Item Type: NETHERITE_AXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-4
+        - DURABILITY-3
+        - LOOT_BONUS_BLOCKS-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 4
+            minecraft:fortune: 2
+            minecraft:unbreaking: 3
+      '8':
+        Type: ITEM
+        Item Type: NETHERITE_SHOVEL
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-4
+        - DURABILITY-3
+        - LOOT_BONUS_BLOCKS-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 4
+            minecraft:fortune: 2
+            minecraft:unbreaking: 3
+      '9':
+        Type: ITEM
+        Item Type: COAL
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '10':
+        Type: ITEM
+        Item Type: IRON_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '11':
+        Type: ITEM
+        Item Type: GOLD_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '13':
+        Type: ITEM
+        Item Type: NETHERITE_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 2
+        Enchantments: []
+        Lore: []
+      '14':
+        Type: ITEM
+        Item Type: NETHERITE_SCRAP
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '15':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '16':
+        Type: ITEM
+        Item Type: ENCHANTED_GOLDEN_APPLE
+        Item Data: 1
+        Name: NONE
+        Amount: 6
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          Damage: 0
+      '17':
+        Type: ITEM
+        Item Type: SHULKER_SHELL
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '18':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '19':
+        Type: ITEM
+        Item Type: ENDER_EYE
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '20':
+        Type: ITEM
+        Item Type: ENDER_PEARL
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '21':
+        Type: ITEM
+        Item Type: BLAZE_ROD
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '22':
+        Type: ITEM
+        Item Type: FIREWORK_ROCKET
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '23':
+        Type: ITEM
+        Item Type: COOKED_PORKCHOP
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '24':
+        Type: ITEM
+        Item Type: WIND_CHARGE
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          custom: H4sIAAAAAAAA/+NiYGBk4AsLq0kuLS7Jz41PSSxJZORiYE/JLC7ISazkYGDxS8xNZbCqVkrOz8kvUrJSKs/ILElV0lEqSa0oAXIN9YwMFcIz81IUnDMSi9JBMpkliTmZyUpWaYk5xam1DAwAGxgFJ2QAAAA=
+      '25':
+        Type: ITEM
+        Item Type: NETHER_STAR
+        Item Data: 0
+        Name: NONE
+        Amount: 2
+        Enchantments: []
+        Lore: []
+      '26':
+        Type: ITEM
+        Item Type: EXPERIENCE_BOTTLE
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '27':
+        Type: ITEM
+        Item Type: BREEZE_ROD
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+  Rango:
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: IRON_SWORD
+        Item Data: 0
+        Percentage: 0
+        Name: '&6&lExample Sword'
+        Amount: 1
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Knockback: 0.0
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Block: CHEST
+    Color: WHITE
+  Comun:
+    Knockback: 0.0
+    Block: CHEST
+    Color: WHITE
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: IRON_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - PROTECTION_ENVIRONMENTAL-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 2
+            minecraft:unbreaking: 2
+      '2':
+        Type: ITEM
+        Item Type: IRON_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - PROTECTION_ENVIRONMENTAL-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 2
+            minecraft:unbreaking: 2
+      '3':
+        Type: ITEM
+        Item Type: IRON_LEGGINGS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - PROTECTION_ENVIRONMENTAL-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 2
+            minecraft:unbreaking: 2
+      '4':
+        Type: ITEM
+        Item Type: IRON_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - PROTECTION_ENVIRONMENTAL-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 2
+            minecraft:unbreaking: 2
+      '5':
+        Type: ITEM
+        Item Type: IRON_SWORD
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - DAMAGE_ALL-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:sharpness: 2
+            minecraft:unbreaking: 2
+      '6':
+        Type: ITEM
+        Item Type: IRON_PICKAXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-2
+        - DURABILITY-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 2
+            minecraft:unbreaking: 2
+      '7':
+        Type: ITEM
+        Item Type: IRON_AXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-2
+        - DURABILITY-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 2
+            minecraft:unbreaking: 2
+      '8':
+        Type: ITEM
+        Item Type: IRON_SHOVEL
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-2
+        - DURABILITY-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 2
+            minecraft:unbreaking: 2
+      '9':
+        Type: ITEM
+        Item Type: COAL
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '10':
+        Type: ITEM
+        Item Type: IRON_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '11':
+        Type: ITEM
+        Item Type: GOLD_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '13':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 0
+        Name: NONE
+        Amount: 3
+        Enchantments: []
+        Lore: []
+      '14':
+        Type: ITEM
+        Item Type: COOKED_PORKCHOP
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '15':
+        Type: ITEM
+        Item Type: EMERALD
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+  Rara:
+    Knockback: 0.0
+    Block: CHEST
+    Color: WHITE
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: DIAMOND_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - PROTECTION_ENVIRONMENTAL-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 3
+            minecraft:unbreaking: 2
+      '2':
+        Type: ITEM
+        Item Type: DIAMOND_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - PROTECTION_ENVIRONMENTAL-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 3
+            minecraft:unbreaking: 2
+      '3':
+        Type: ITEM
+        Item Type: DIAMOND_LEGGINGS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - PROTECTION_ENVIRONMENTAL-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 3
+            minecraft:unbreaking: 2
+      '4':
+        Type: ITEM
+        Item Type: DIAMOND_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - PROTECTION_ENVIRONMENTAL-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:protection: 3
+            minecraft:unbreaking: 2
+      '5':
+        Type: ITEM
+        Item Type: DIAMOND_SWORD
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DURABILITY-2
+        - DAMAGE_ALL-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:sharpness: 3
+            minecraft:unbreaking: 2
+      '6':
+        Type: ITEM
+        Item Type: DIAMOND_PICKAXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-3
+        - DURABILITY-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 3
+            minecraft:unbreaking: 2
+      '7':
+        Type: ITEM
+        Item Type: DIAMOND_AXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-3
+        - DURABILITY-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 3
+            minecraft:unbreaking: 2
+      '8':
+        Type: ITEM
+        Item Type: DIAMOND_SHOVEL
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - DIG_SPEED-3
+        - DURABILITY-2
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 3
+            minecraft:unbreaking: 2
+      '9':
+        Type: ITEM
+        Item Type: COOKED_PORKCHOP
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '10':
+        Type: ITEM
+        Item Type: IRON_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '11':
+        Type: ITEM
+        Item Type: GOLD_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '13':
+        Type: ITEM
+        Item Type: EMERALD
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '14':
+        Type: ITEM
+        Item Type: EXPERIENCE_BOTTLE
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '15':
+        Type: ITEM
+        Item Type: SHULKER_SHELL
+        Item Data: 0
+        Name: NONE
+        Amount: 2
+        Enchantments: []
+        Lore: []
+      '16':
+        Type: ITEM
+        Item Type: FIREWORK_ROCKET
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '17':
+        Type: ITEM
+        Item Type: BLAZE_ROD
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '18':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '19':
+        Type: ITEM
+        Item Type: COAL
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '20':
+        Type: ITEM
+        Item Type: ENDER_PEARL
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '21':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '22':
+        Type: ITEM
+        Item Type: ENCHANTED_GOLDEN_APPLE
+        Item Data: 1
+        Name: NONE
+        Amount: 2
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          Damage: 0
+      '23':
+        Type: ITEM
+        Item Type: GUNPOWDER
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '24':
+        Type: ITEM
+        Item Type: NETHERITE_SCRAP
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '25':
+        Type: ITEM
+        Item Type: ENDER_EYE
+        Item Data: 0
+        Name: NONE
+        Amount: 4
+        Enchantments: []
+        Lore: []
+  Epica:
+    Knockback: 0.0
+    Block: CHEST
+    Color: WHITE
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: NETHERITE_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DURABILITY-3
+        - PROTECTION_ENVIRONMENTAL-5
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:mending: 1
+            minecraft:protection: 5
+            minecraft:unbreaking: 3
+      '2':
+        Type: ITEM
+        Item Type: NETHERITE_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DURABILITY-3
+        - PROTECTION_ENVIRONMENTAL-5
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:mending: 1
+            minecraft:protection: 5
+            minecraft:unbreaking: 3
+      '3':
+        Type: ITEM
+        Item Type: NETHERITE_LEGGINGS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DURABILITY-3
+        - PROTECTION_ENVIRONMENTAL-5
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:mending: 1
+            minecraft:protection: 5
+            minecraft:unbreaking: 3
+      '4':
+        Type: ITEM
+        Item Type: NETHERITE_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DURABILITY-3
+        - PROTECTION_ENVIRONMENTAL-5
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:mending: 1
+            minecraft:protection: 5
+            minecraft:unbreaking: 3
+      '5':
+        Type: ITEM
+        Item Type: NETHERITE_SWORD
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - LOOT_BONUS_MOBS-3
+        - DURABILITY-3
+        - DAMAGE_ALL-5
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:looting: 3
+            minecraft:mending: 1
+            minecraft:sharpness: 5
+            minecraft:unbreaking: 3
+      '6':
+        Type: ITEM
+        Item Type: NETHERITE_PICKAXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DIG_SPEED-5
+        - DURABILITY-3
+        - LOOT_BONUS_BLOCKS-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 5
+            minecraft:fortune: 3
+            minecraft:mending: 1
+            minecraft:unbreaking: 3
+      '7':
+        Type: ITEM
+        Item Type: NETHERITE_AXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DIG_SPEED-5
+        - DURABILITY-3
+        - LOOT_BONUS_BLOCKS-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 5
+            minecraft:fortune: 3
+            minecraft:mending: 1
+            minecraft:unbreaking: 3
+      '8':
+        Type: ITEM
+        Item Type: NETHERITE_SHOVEL
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DIG_SPEED-5
+        - DURABILITY-3
+        - LOOT_BONUS_BLOCKS-3
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 5
+            minecraft:fortune: 3
+            minecraft:mending: 1
+            minecraft:unbreaking: 3
+      '9':
+        Type: ITEM
+        Item Type: COAL
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '10':
+        Type: ITEM
+        Item Type: IRON_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '11':
+        Type: ITEM
+        Item Type: GOLD_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '12':
+        Type: ITEM
+        Item Type: DIAMOND
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '13':
+        Type: ITEM
+        Item Type: EMERALD
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '14':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '15':
+        Type: ITEM
+        Item Type: SHULKER_SHELL
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '16':
+        Type: ITEM
+        Item Type: ENDER_EYE
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '17':
+        Type: ITEM
+        Item Type: ENDER_PEARL
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '18':
+        Type: ITEM
+        Item Type: NETHER_WART
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '19':
+        Type: ITEM
+        Item Type: BLAZE_ROD
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '20':
+        Type: ITEM
+        Item Type: COOKED_PORKCHOP
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '21':
+        Type: ITEM
+        Item Type: OBSIDIAN
+        Item Data: 0
+        Name: NONE
+        Amount: 16
+        Enchantments: []
+        Lore: []
+      '22':
+        Type: ITEM
+        Item Type: END_CRYSTAL
+        Item Data: 0
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+      '23':
+        Type: ITEM
+        Item Type: NETHERITE_SCRAP
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '24':
+        Type: ITEM
+        Item Type: NETHERITE_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 4
+        Enchantments: []
+        Lore: []
+      '25':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '26':
+        Type: ITEM
+        Item Type: ENCHANTED_GOLDEN_APPLE
+        Item Data: 1
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          Damage: 0
+      '27':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&5&lRango Elite'
+        Amount: 1
+        Enchantments:
+        - LOOT_BONUS_BLOCKS-1
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rango Elite","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"dark_purple"}]}'
+          enchants:
+            minecraft:fortune: 1
+      '28':
+        Type: ITEM
+        Item Type: EXPERIENCE_BOTTLE
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '29':
+        Type: ITEM
+        Item Type: BREEZE_ROD
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '30':
+        Type: ITEM
+        Item Type: FIREWORK_ROCKET
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '31':
+        Type: ITEM
+        Item Type: WIND_CHARGE
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '32':
+        Type: ITEM
+        Item Type: NETHER_STAR
+        Item Data: 0
+        Name: NONE
+        Amount: 4
+        Enchantments: []
+        Lore: []
+      '33':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lDinero 10K'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-1
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Dinero 10K","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"green"}]}'
+          enchants:
+            minecraft:unbreaking: 1
+  OP:
+    Knockback: 0.0
+    Block: CHEST
+    Color: WHITE
+    Broadcast: false
+    Firework: false
+    Preview: true
+    Key:
+      Item: TRIPWIRE_HOOK
+      Name: '%type% Crate Key'
+      Enchanted: true
+    Winnings:
+      '1':
+        Type: ITEM
+        Item Type: NETHERITE_HELMET
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DURABILITY-4
+        - PROTECTION_ENVIRONMENTAL-9
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:mending: 1
+            minecraft:protection: 9
+            minecraft:unbreaking: 4
+      '2':
+        Type: ITEM
+        Item Type: NETHERITE_CHESTPLATE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DURABILITY-4
+        - PROTECTION_ENVIRONMENTAL-9
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:mending: 1
+            minecraft:protection: 9
+            minecraft:unbreaking: 4
+      '3':
+        Type: ITEM
+        Item Type: NETHERITE_LEGGINGS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DURABILITY-4
+        - PROTECTION_ENVIRONMENTAL-9
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:mending: 1
+            minecraft:protection: 9
+            minecraft:unbreaking: 4
+      '4':
+        Type: ITEM
+        Item Type: NETHERITE_BOOTS
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DURABILITY-4
+        - PROTECTION_ENVIRONMENTAL-9
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: ARMOR
+          enchants:
+            minecraft:mending: 1
+            minecraft:protection: 9
+            minecraft:unbreaking: 4
+      '5':
+        Type: ITEM
+        Item Type: NETHERITE_SWORD
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DURABILITY-4
+        - DAMAGE_ALL-9
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:mending: 1
+            minecraft:sharpness: 9
+            minecraft:unbreaking: 4
+      '6':
+        Type: ITEM
+        Item Type: NETHERITE_PICKAXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DIG_SPEED-9
+        - DURABILITY-4
+        - LOOT_BONUS_BLOCKS-4
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 9
+            minecraft:fortune: 4
+            minecraft:mending: 1
+            minecraft:unbreaking: 4
+      '7':
+        Type: ITEM
+        Item Type: NETHERITE_AXE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DIG_SPEED-9
+        - DURABILITY-4
+        - LOOT_BONUS_BLOCKS-4
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 9
+            minecraft:fortune: 4
+            minecraft:mending: 1
+            minecraft:unbreaking: 4
+      '8':
+        Type: ITEM
+        Item Type: NETHERITE_SHOVEL
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments:
+        - MENDING-1
+        - DIG_SPEED-9
+        - DURABILITY-4
+        - LOOT_BONUS_BLOCKS-4
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          enchants:
+            minecraft:efficiency: 9
+            minecraft:fortune: 4
+            minecraft:mending: 1
+            minecraft:unbreaking: 4
+      '9':
+        Type: ITEM
+        Item Type: NETHERITE_INGOT
+        Item Data: 0
+        Name: NONE
+        Amount: 10
+        Enchantments: []
+        Lore: []
+      '10':
+        Type: ITEM
+        Item Type: GOLDEN_APPLE
+        Item Data: 0
+        Name: NONE
+        Amount: 32
+        Enchantments: []
+        Lore: []
+      '11':
+        Type: ITEM
+        Item Type: ENCHANTED_GOLDEN_APPLE
+        Item Data: 1
+        Name: NONE
+        Amount: 8
+        Enchantments: []
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          Damage: 0
+      '12':
+        Type: ITEM
+        Item Type: BOOK
+        Item Data: 0
+        Name: '&f&lRango Eternal'
+        Amount: 1
+        Enchantments:
+        - LOOT_BONUS_BLOCKS-1
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Rango Eternal","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"white"}]}'
+          enchants:
+            minecraft:fortune: 1
+      '13':
+        Type: ITEM
+        Item Type: PAPER
+        Item Data: 0
+        Name: '&a&lDinero 60K'
+        Amount: 1
+        Enchantments:
+        - DURABILITY-1
+        Lore: []
+        Metadata:
+          ==: ItemMeta
+          meta-type: UNSPECIFIC
+          display-name: '{"text":"","extra":[{"text":"Dinero 60K","strikethrough":false,"obfuscated":false,"bold":true,"italic":false,"underlined":false,"color":"green"}]}'
+          enchants:
+            minecraft:unbreaking: 1
+      '14':
+        Type: ITEM
+        Item Type: NETHERITE_BLOCK
+        Item Data: 0
+        Name: NONE
+        Amount: 2
+        Enchantments: []
+        Lore: []
+      '15':
+        Type: ITEM
+        Item Type: HEAVY_CORE
+        Item Data: 0
+        Name: NONE
+        Amount: 1
+        Enchantments: []
+        Lore: []
+      '16':
+        Type: ITEM
+        Item Type: BREEZE_ROD
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
+      '17':
+        Type: ITEM
+        Item Type: WIND_CHARGE
+        Item Data: 0
+        Name: NONE
+        Amount: 64
+        Enchantments: []
+        Lore: []
